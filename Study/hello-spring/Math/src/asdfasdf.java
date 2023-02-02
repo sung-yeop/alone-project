@@ -21,7 +21,7 @@ public class asdfasdf {
             a = a%n;
         }
         if(a==2){
-            if(n%8 == 1 || n%8 == 7){
+            if(n%8 == 1 || n%8 == 7){ //변경된 부분 추가
                 if(sign == 1){
                     this.result = 1;
                     return;
